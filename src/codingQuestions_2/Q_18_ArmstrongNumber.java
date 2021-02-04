@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Q_18_ArmstrongNumber {
     public static void main(String[] args) {
         //Armstrong Number
-
+//rakamlarinin kupunun toplami sayiya esit olan sayilar...
         Scanner scan=new Scanner(System.in);
         System.out.println("give me a number for Armstroong");
         int num=scan.nextInt();

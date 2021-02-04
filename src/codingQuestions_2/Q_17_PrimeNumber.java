@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Q_17_PrimeNumber {
     public static void main(String[] args) {
 
+        //sadece 1 e ve kendisine bolunen sayilar.
+
+
         int counter = 0;
 
         for (int i = 20; i <= 50; i++) {
