@@ -1,6 +1,6 @@
 package codingQuestions_3;
 
-public class Q_2_UcgenSorusu {
+public class Q_02_UcgenSorusu {
     public static void main(String[] args) {
 
         for (int i = 1; i <= 5; i++) {
