@@ -1,6 +1,6 @@
 package codingQuestions_3;
 
-public class Q_1_TersDikUcgenSorusu {
+public class Q_01_TersDikUcgenSorusu {
     public static void main(String[] args) {
 
 
