@@ -16,7 +16,7 @@ public class Q_02_FibonacciNumbers {
         int t1=0;
         int t2=1;
 
-        for(int i=1; i<=num;i++){
+        for(int i=2; i<=num;i++){
             System.out.println(t1);  //   t1   0 1 1 2 3 5  8  13 21 34
             int sum=t1+t2;          //   sum   1 2 3 5 8 13 21 34 55 89
             t1=t2;                 //     t1   1 1 2 3 5 8  13 21 34 55
@@ -32,7 +32,7 @@ public class Q_02_FibonacciNumbers {
         for (int i = 0; i <num2 ; i++) {
 
             System.out.println(z1);   //dongude surekli yazdiracak... ilk sayiyi
-            int sum2=z1+z2;            // onceki sayinin toplaniydi. ilk iki sayiyi toplariz.
+            int sum2=z1+z2;            // onceki sayinin toplamiydi. ilk iki sayiyi toplariz.
             z1=z2;                     // ilk sayiya ikinci sayiyi atariz.
             z2=sum2;                    // ikinci sayiya ilk iki sayinin toplamini atama yapariz.
 
