@@ -10,6 +10,9 @@ public class Q_14_PalindromeNumberSB {
 
         StringBuilder reversed = new StringBuilder(reverse);
         reversed.reverse();
+        System.out.println(reversed.toString());
+
+
 
         if(reverse.equals(reversed.toString())){
             System.out.println("Sayi yada String palindrome'dur.");
